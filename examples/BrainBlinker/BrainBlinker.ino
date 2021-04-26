@@ -1,6 +1,6 @@
 // Arduino Brain Library - Brain Blinker
 
-// Description: Basic brain example, blinks an LED on pin 13 slowerr as your "meditation" value increases.
+// Description: Basic brain example, blinks an LED on pin 13 slower as your "meditation" value increases.
 // Adapted from the Blink without Delay example distributed with Arduino environment.
 // More info: https://github.com/kitschpatrol/Arduino-Brain-Library
 // Author: Eric Mika, 2010 revised in 2014
