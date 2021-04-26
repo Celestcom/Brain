@@ -28,12 +28,13 @@ void loop() {
     if (brain.update()) {
         Serial.println(brain.readCSV());
 
-        // Attention runs from 0 to 100.
-        interval = (100 - brain.readAttention()) * 10;
+        // Meditation runs from 0 to 100.
+        interval = (+
+        ((brain.readMeditation()) /2)+ 30) * 3;
     }
 
     // Make sure we have a signal.
-    if(brain.readSignalQuality() == 0) {
+    if(brain.readSignalQuality() < 200) {
 
         // Blink the LED.
       if (millis() - previousMillis > interval) {
